@@ -1,15 +1,15 @@
 //
-//  NSObject+ARMOD.h
-//  ARMODLib
+//  ARMODCommunicationLayer.h
+//  ARMOD
 //
-//  Created by NSWell on 2020/10/22.
+//  Created by phantomsxr on 2021/5/26.
+//  Copyright © 2020 phantomsxr.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import <UnityFramework/UnityFramework.h>
 #import <UnityFramework/NativeCallProxy.h>
-
 
 @interface ARMOD : UIResponder<UIApplicationDelegate, UnityFrameworkListener>
 @property UnityFramework* ufw;
@@ -18,7 +18,7 @@
 
 +(id) sharedInstance;
 
-// MARK: - application event
+// MARK: - ARMOD Native Public APIs
 /*!
  @Discussion Link to the application's Window
  @param nativeWindow UIWindow of its own app
@@ -51,15 +51,6 @@
  */
 - (void) connectArgcArgv:(int)gArgc setgArgv:(char **) gArgv;
 
-
-- (void) applicationWillResignActive:(UIApplication*)application;
-- (void) applicationDidEnterBackground:(UIApplication*)application;
-- (void) applicationWillEnterForeground:(UIApplication*)application;
-- (void) applicationDidBecomeActive:(UIApplication*)application;
-- (void) applicationWillTerminate:(UIApplication*)application;
-
-// MARK: - External API
-
 /*!
  @Discussion Use this method to initialize the SDK
  @param appconfigure SDK configuration
@@ -73,7 +64,6 @@
  */
 - (void) fetchProject:(NSString*) projecetUid;
 
-
 /*!
  @Discussion Query AR projects through pictures
  */
@@ -83,7 +73,6 @@
  @Discussion Show the AR window
  */
 - (void) loadAndShowARMODView;
-
 
 /*!
  @Discussion Remove and hide the current AR window
@@ -102,13 +91,12 @@
 - (void) setUIInterfaceOrientation:(UIInterfaceOrientation) orientation;
 
 /*!
- @DiscussionClear all download caches
+ @Discussion Clear all download caches
  */
 - (void)cleanCache;
 
-// MARK: - callback API
-
-- (void) unityDidUnload:(NSNotification*)notification;
-
-- (void) unityDidQuit:(NSNotification*)notification;
+/*!
+ @Discussion Continue to download the AR experience
+ */
+- (void)continueToDownloadARExperience;
 @end

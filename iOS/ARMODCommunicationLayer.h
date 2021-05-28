@@ -10,13 +10,16 @@
 #import <Foundation/Foundation.h>
 #import <UnityFramework/UnityFramework.h>
 #import <UnityFramework/NativeCallProxy.h>
-
 @interface ARMOD : UIResponder<UIApplicationDelegate, UnityFrameworkListener>
 @property UnityFramework* ufw;
 @property int selfgArgc;
 @property char** selfgArgv;
 
 +(id) sharedInstance;
+
+// MARK: - Notification
+- (void)unityDidUnload:(NSNotification*)notification;
+
 
 // MARK: - ARMOD Native Public APIs
 /*!

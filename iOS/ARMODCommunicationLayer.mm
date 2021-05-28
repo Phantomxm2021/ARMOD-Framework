@@ -32,6 +32,13 @@ char const *dataBundleId                    = "com.unity3d.framework";
 NSString *frameworkLibAPI                   = @"FrameworkLibAPI";
 NSString *bundlePathStr                     = @"/Frameworks/UnityFramework.framework";
 
+// MARK: - Notification
+- (void)unityDidUnload:(NSNotification *)notification{
+    
+    [[self ufw] unregisterFrameworkListener:self];
+    [self setUfw:nil];
+    [originWindow makeKeyAndVisible];
+}
 
 
 /*!

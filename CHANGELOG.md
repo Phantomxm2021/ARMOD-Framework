@@ -1,3 +1,29 @@
+# Version 0.0.2
+## Add
+- New API Exit ARMOD callback added
+- Camera Stack API added
+- Device vibration API added
+- Networking.DownloadHandler API added
+- Set Unity UGUI Canvas world camera api added
+- Access in-depth information
+- Access Camera frame
+- Support secondary development based on Unity
+- ARWorld Scale
+- Gyroscope support
+- Location Services
+- Runtime Debug log
+
+## Change
+- SDK performance stability optimization
+- Native and Unity options to SDK configuration
+- Change the ImageTracker status to enumerated
+- The download resource file is too large and requires a prompt
+- Increase runtime quality adjustment
+- Added loading Material function
+
+## Fix
+- Fix development tool errors
+
 # Version 0.0.1
 # Main features of ARMOD
 

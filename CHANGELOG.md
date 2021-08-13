@@ -1,3 +1,37 @@
+# Version 0.0.3
+## Add
+- New programming work follow.
+  - MonoBinder Developers will be allowed to perform visual configuration through the Inspector panel.
+  - Quickly create AR experience through templates
+    
+- LightProbs APIs support
+- Add local packages
+- Add default Event System to main scene
+- Add FaceMesh state
+- Add Face Mesh prefab
+- Add Auto convert to MonoBinder
+- Add convert to MonoBinder  dialog
+
+
+## Changed
+- Rename development kit version to v0.0.3
+- Changed ImageDebug [Resolution](https://www.teambition.com/task/610a04401c41f90044134265)
+- Changed `Focus Slam` Not send any notification to AR-Experience on Unity Editor
+- Update Unity editor version to 2020.3.14f1
+- Obsolete the Anchor `Stick type enum`
+- Obsolete the Anchor `ByScreen action`
+- Change face mesh algorithm struct
+- Disable obfuscate plugin
+- Change AR-MOD API default constructor to new constructor, `New ARMODAPI()` -> `New ARMODAPI(#PROJECT_NAME#)`
+
+
+## Fixed
+- Core:Fix ARMOD API clr binding
+- Core:Fix Call error again after releasing the ActionNotificationCenter
+- Core:Fix https://www.teambition.com/task/6102c0d754ac40004408d620
+- Android:Fix Ingamedebug plugin error
+- iOS:Fix defines 
+
 # Version 0.0.2
 ## Add
 - New API Exit ARMOD callback added

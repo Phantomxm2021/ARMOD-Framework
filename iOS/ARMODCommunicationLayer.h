@@ -57,8 +57,9 @@
 /*!
  @Discussion Use this method to initialize the SDK
  @param appconfigure SDK configuration
+ @param completed After initialization execute.
  */
-- (void) initARMOD:(NSString*) appconfigure;
+- (void) initARMOD:(NSString*) appconfigure completed:(void (^)(void)) completed;
 
 
 /*!

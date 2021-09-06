@@ -81,7 +81,7 @@ UnityFramework* UnityFrameworkLoad()
     
         [[self ufw] setDataBundleId: dataBundleId];
     
-        
+    
         [[self ufw] registerFrameworkListener: self];
         
         if (ncp!=nil) {
@@ -89,13 +89,14 @@ UnityFramework* UnityFrameworkLoad()
         }
         
         [[self ufw] runEmbeddedWithArgc: self.selfgArgc argv: self.selfgArgv appLaunchOpts: appLaunchOpts];
-    
+        
         // set quit handler to change default behavior of exit app
         [[self ufw] appController].quitHandler = ^(){ NSLog(@"AppController.quitHandler called"); };
-    
+
         if (@available(iOS 13.0, *)) {
             if(originWindow.windowScene != nil){
                 [[[[self ufw] appController]  window] setWindowScene:originWindow.windowScene];
+                [[[[self ufw] appController]  window] addSubview:self.ufw.appController.rootView];
                 [[[[self ufw] appController] window] makeKeyAndVisible];
             }
         }
@@ -141,11 +142,11 @@ UnityFramework* UnityFrameworkLoad()
 */
 - (void)showARMODWindow{
     if([self armodIsInitialized]){
-        
         [[self ufw] showUnityWindow];
     }else{
         NSLog(@"ARMOD is not initialized ,Initialize ARMOD first");
     }
+    
 }
 
 /*!
@@ -176,9 +177,10 @@ UnityFramework* UnityFrameworkLoad()
     appLaunchOpts = applaunchOpts;
 }
 
-- (void)initARMOD:(NSString*) appconfigure{
+- (void)initARMOD:(NSString*) appconfigure completed:(void (^)())completed{
     [self initARMODModule];
     [self callSDKMethod:initApp addData:[appconfigure UTF8String]];
+    completed();
 }
 
 /*!

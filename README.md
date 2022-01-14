@@ -6,10 +6,47 @@ AR-MOD is a derivative framework based on Unity ARFoundation. MOD in AR-MOD mean
 We transplant the MOD concept into AR technology to give users more freedom to create the AR creative interactive experience content they need! In this process, users do not need to worry about AR-SDK algorithm and code implementation, but only need to devote themselves to the production of AR creative interactive experience content. With only a small amount of code, you can use all the capabilities of AR-MOD on the APP to create greater commercial value.
 
 
+https://user-images.githubusercontent.com/82647748/149473548-b8e5e432-7ace-4880-a28e-8d2e17f95b8a.mp4
+
+
 # Enhance your world and applications
 
 ARMOD is a powerful AR solution designed for artists and developers to build augmented reality experiences for hundreds of millions of Unity users. With its suite of Unity-compatible features, including custom shaders and advanced tracking technology, the possibilities are endless.
 
+# Showcase 
+<table width="100%">
+
+ <tr>
+  
+  <td> 
+
+https://user-images.githubusercontent.com/82647748/149475387-51755d18-4c3e-49a1-86e8-d0a074ede7f2.mp4 
+
+  </td>   
+  
+  <td> 
+  
+https://user-images.githubusercontent.com/82647748/149475407-002a794c-a1ec-4f24-a1b2-58d69796e20c.mp4 
+  
+  </td> 
+  <td> 
+  
+https://user-images.githubusercontent.com/82647748/149475448-5bb5ba0c-0ce1-4d0d-8e69-7eb1b9875df5.mp4 
+  
+  </td> 
+ </tr>
+ 
+ <tr>
+ 
+  <td> 
+  
+https://user-images.githubusercontent.com/82647748/149475501-5288969b-1c99-465b-b2a9-079212988074.mp4 
+  
+  </td> 
+
+ </tr>
+ 
+</table>
 
 # Main features of ARMOD
 

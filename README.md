@@ -1,10 +1,23 @@
-# What is the ARMOD SDK?
+
+<img src="https://user-images.githubusercontent.com/82647748/149487631-6a1fd24c-3efc-46e5-aab6-3999f02fcdcc.png" width="100%">
+
+# Content list
+- [What is the ARMOD SDK?](#what-is-the-armod-sdk)
+- [What is AR-MOD do?](#what-is-ar-mod-do)
+- [Enhance your world and applications](#enhance-your-world-and-applications)
+- [Showcase](#showcase)
+
+
+# What is the ARMOD SDK
 In short, [ARMOD's](https://docs.phantomsxr.com/) solution is an AR experience platform solution similar to Snapchat ([Lens Studio](https://lensstudio.snapchat.com/)) and Facebook ([SparkAR](https://sparkar.facebook.com/ar-studio/))! 
 
 AR-MOD is a derivative framework based on Unity ARFoundation. MOD in AR-MOD means Modification in English, meaning: modification and module. This concept is widely used in games, corresponding to modifiable video games. Famous games such as Warcraft, Red Alert, Half-Life, CS, Victory Day and more! 
 
 We transplant the MOD concept into AR technology to give users more freedom to create the AR creative interactive experience content they need! In this process, users do not need to worry about AR-SDK algorithm and code implementation, but only need to devote themselves to the production of AR creative interactive experience content. With only a small amount of code, you can use all the capabilities of AR-MOD on the APP to create greater commercial value.
 
+# What is AR-MOD do
+
+ARMod provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
 
 https://user-images.githubusercontent.com/82647748/149473548-b8e5e432-7ace-4880-a28e-8d2e17f95b8a.mp4
 
@@ -13,37 +26,58 @@ https://user-images.githubusercontent.com/82647748/149473548-b8e5e432-7ace-4880-
 
 ARMOD is a powerful AR solution designed for artists and developers to build augmented reality experiences for hundreds of millions of Unity users. With its suite of Unity-compatible features, including custom shaders and advanced tracking technology, the possibilities are endless.
 
+![image](https://user-images.githubusercontent.com/82647748/149487922-227dc02f-7ba9-4d38-86f3-f7138d64bbb5.png)
+![image](https://user-images.githubusercontent.com/82647748/149487962-3b3be7ee-9b63-475d-94d3-e2d9490f6cc2.png)
+![image](https://user-images.githubusercontent.com/82647748/149487994-3aa9969b-38b8-464e-9aec-a0cb49ff5180.png)
+![image](https://user-images.githubusercontent.com/82647748/149488109-0667a06b-dc52-4323-b587-093cbcb667b8.png)
+![image](https://user-images.githubusercontent.com/82647748/149488076-01c86010-d24c-4c68-999c-09aba14cbd99.png)
+![image](https://user-images.githubusercontent.com/82647748/149488144-50e1da91-e7b7-4183-b6bd-ff3d15bd0a36.png)
+![image](https://user-images.githubusercontent.com/82647748/149488175-023235d5-ebe3-4398-9bbe-68858275bc7d.png)
+
+
 # Showcase 
 <table width="100%">
 
  <tr>
   
-  <td> 
+  <td width="285px"> 
 
-https://user-images.githubusercontent.com/82647748/149475387-51755d18-4c3e-49a1-86e8-d0a074ede7f2.mp4 
+https://user-images.githubusercontent.com/82647748/149483206-6efeea0f-f499-4890-9f7b-6a52a10ed45b.mp4
 
   </td>   
   
-  <td> 
-  
-https://user-images.githubusercontent.com/82647748/149475407-002a794c-a1ec-4f24-a1b2-58d69796e20c.mp4 
-  
+  <td width="285px"> 
+
+https://user-images.githubusercontent.com/82647748/149483972-a4daf76c-49f1-4c73-9a32-22d9ed9d6fb1.mp4
+
   </td> 
-  <td> 
-  
-https://user-images.githubusercontent.com/82647748/149475448-5bb5ba0c-0ce1-4d0d-8e69-7eb1b9875df5.mp4 
-  
+  <td width="285px"> 
+
+https://user-images.githubusercontent.com/82647748/149483586-bb43daec-92ab-4b8b-898e-277ecce1cd09.mp4
+
   </td> 
  </tr>
  
  <tr>
  
-  <td> 
+  <td width="285px"> 
   
 https://user-images.githubusercontent.com/82647748/149475501-5288969b-1c99-465b-b2a9-079212988074.mp4 
   
   </td> 
 
+  <td width="285px"> 
+  
+   <img src="https://user-images.githubusercontent.com/82647748/149484981-e0853581-65f0-4dc0-aa66-47d06f49e93a.PNG">
+  
+  </td> 
+  
+   <td width="285px"> 
+  
+   <img src="https://user-images.githubusercontent.com/82647748/149486633-c354409a-85b5-4991-a5f1-73fdb55d0401.JPG">
+
+  </td> 
+  
  </tr>
  
 </table>

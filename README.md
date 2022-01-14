@@ -1,6 +1,13 @@
 
 <img src="https://user-images.githubusercontent.com/82647748/149487631-6a1fd24c-3efc-46e5-aab6-3999f02fcdcc.png" width="100%">
 
+
+[![Documentation](https://img.shields.io/badge/docs-brightgreen.svg)](https://docs.phantomsxr.com/)
+[![Video Tutorials](https://img.shields.io/badge/video_tutorial-brightgreen.svg)](https://www.youtube.com/channel/UCf98zocVgz1FGF6jgx4N-oA)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/Phantomxm2021/ARMOD-Framework/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/832555918591000576)](https://discord.gg/eWstRkfp)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Phantomxm2021/ARMOD-Framework)
+
 # Content list
 - [What is the ARMOD SDK?](#what-is-the-armod-sdk)
 - [What is AR-MOD do?](#what-is-ar-mod-do)
@@ -27,13 +34,16 @@ https://user-images.githubusercontent.com/82647748/149473548-b8e5e432-7ace-4880-
 
 AR-MOD provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
 
-![UILayer](https://user-images.githubusercontent.com/82647748/149525821-b10ba31e-4d6c-4427-90b0-9ff3c90c289e.png)
+![UILayer](https://user-images.githubusercontent.com/82647748/149527960-32a8ea51-1c10-4085-9d75-8a0f2ce254fd.png)
 
 # Enhance your world and applications
 
 ARMOD is a powerful AR solution designed for artists and developers to build augmented reality experiences for hundreds of millions of Unity users. With its suite of Unity-compatible features, including custom shaders and advanced tracking technology, the possibilities are endless.
 
+<details>
 
+<summary>More about AR-MOD Platform Solustion</summary>
+ 
 ![2](https://user-images.githubusercontent.com/82647748/149517986-082a9691-a0c8-4802-bc24-99c5c9d2253d.png)
 ![3](https://user-images.githubusercontent.com/82647748/149517994-a009e89c-683c-40d1-a641-46e63a1c9ba9.png)
 ![4](https://user-images.githubusercontent.com/82647748/149517999-a99e18c8-b314-4c7b-8ec0-f816f79a0a24.png)
@@ -42,6 +52,7 @@ ARMOD is a powerful AR solution designed for artists and developers to build aug
 ![7](https://user-images.githubusercontent.com/82647748/149518004-dadc6e88-6df8-41e5-b476-f73f83d6f84d.png)
 ![8](https://user-images.githubusercontent.com/82647748/149518005-a9968a50-f91c-4058-a0de-c3cae36e8c11.png)
 
+</details>
 
 # Showcase 
 <table width="100%">
@@ -89,6 +100,25 @@ https://user-images.githubusercontent.com/82647748/149475501-5288969b-1c99-465b-
  </tr>
  
 </table>
+
+
+# AR-MOD Open Source Projects
+
+Welcome to provide your project information to show us.
+
+| Name                    | URL                                                      |
+|-------------------------|----------------------------------------------------------|
+| StackAR                 | https://github.com/Phantomxm2021/ARMOD-StackAR           |
+| ARMOD-Unity-Demo-App    | https://github.com/Phantomxm2021/ARMOD-Unity-Demo-App    |
+| ARMOD-FlutterAppDemo    | https://github.com/Phantomxm2021/ARMOD-FlutterAppDemo    |
+| ARMOD-SurvivalShooterAR | https://github.com/Phantomxm2021/ARMOD-SurvivalShooterAR |
+| ARMOD-Java-Android-Demo | https://github.com/Phantomxm2021/ARMOD-Java-Android-Demo |
+| ARMOD-Tutorials         | https://github.com/Phantomxm2021/ARMOD-Tutorials         |
+| ARMOD-Examples          | https://github.com/Phantomxm2021/ARMOD-Examples          |
+
+
+
+
 
 # Main features of ARMOD
 
@@ -207,4 +237,6 @@ https://user-images.githubusercontent.com/82647748/149475501-5288969b-1c99-465b-
 - 10,000 http api requests per day/Application
 - Restful API Support
 </details>
+
+
 

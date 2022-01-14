@@ -27,8 +27,7 @@ https://user-images.githubusercontent.com/82647748/149473548-b8e5e432-7ace-4880-
 
 AR-MOD provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
 
-![UILayer](https://user-images.githubusercontent.com/82647748/149500024-b0f0e086-d5c3-42cf-92d2-52b0f4704369.png)
-
+![UILayer](https://user-images.githubusercontent.com/82647748/149525821-b10ba31e-4d6c-4427-90b0-9ff3c90c289e.png)
 
 # Enhance your world and applications
 
@@ -109,8 +108,46 @@ https://user-images.githubusercontent.com/82647748/149475501-5288969b-1c99-465b-
 - Pass-through video: optimized rendering of mobile camera image onto touch screen as the background for AR content.
 - Session management: manipulation of the platform-level configuration automatically when AR Features are enable or disabled.
 - Occlusion: allows for occlusion of virtual content by detected environmental depth (environment occlusion) or by detected human depth (human occlusion).
+ 
+||ARCore|ARKit|Magic Leap|HoloLens|
+|--- |--- |--- |--- |--- |
+|Device tracking|✓|✓|✓|✓|
+|Plane tracking|✓|✓|✓||
+|Point clouds|✓|✓|||
+|Anchors|✓|✓|✓|✓|
+|Light estimation|✓|✓|||
+|Environment probes|✓|✓|||
+|Face tracking|✓|✓|||
+|2D Image tracking|✓|✓|✓||
+|3D Object tracking|||||
+|Meshing|||||
+|2D & 3D body tracking|||||
+|Collaborative participants|||||
+|Human segmentation||✓|||
+|Raycast|✓|✓|✓||
+|Pass-through video|✓|✓|||
+|Session management|✓|✓|✓|✓|
+|Occlusion|✓|✓|||
 
+ 
 </details>
+
+
+<details>
+ <summary>Multiplayer API</summary>
+ Mirror is a high level Networking library for Unity, optimized for ease of use & probability of success.
+ 
+ - Growing library of Script Templates to make learning and coding easier.
+ - Remote Procedure calls and context control via Attributes.
+ - More than a dozen built in Components.
+ - Five flavors of Interest Management, and you can make your own custom version.
+ - Support for Additive Scenes with Physics Isolation (battle instances, levels, etc.)
+ - Several complete Examples included.
+ - Constant improvements and enhancements every month.
+ - Full time support available in our Discord.
+ - Free and not ccu limit
+</details>
+
 <details>
     <summary> ARCloud </summary>
 

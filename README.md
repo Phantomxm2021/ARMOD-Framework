@@ -25,7 +25,7 @@ https://user-images.githubusercontent.com/82647748/149473548-b8e5e432-7ace-4880-
  
 # What is AR-MOD DO
 
-ARMod provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
+AR-MOD provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
 
 ![UILayer](https://user-images.githubusercontent.com/82647748/149500024-b0f0e086-d5c3-42cf-92d2-52b0f4704369.png)
 
@@ -34,13 +34,14 @@ ARMod provides AR integration capabilities for enterprises or individuals. Users
 
 ARMOD is a powerful AR solution designed for artists and developers to build augmented reality experiences for hundreds of millions of Unity users. With its suite of Unity-compatible features, including custom shaders and advanced tracking technology, the possibilities are endless.
 
-![image](https://user-images.githubusercontent.com/82647748/149487922-227dc02f-7ba9-4d38-86f3-f7138d64bbb5.png)
-![image](https://user-images.githubusercontent.com/82647748/149487962-3b3be7ee-9b63-475d-94d3-e2d9490f6cc2.png)
-![image](https://user-images.githubusercontent.com/82647748/149487994-3aa9969b-38b8-464e-9aec-a0cb49ff5180.png)
-![image](https://user-images.githubusercontent.com/82647748/149488109-0667a06b-dc52-4323-b587-093cbcb667b8.png)
-![image](https://user-images.githubusercontent.com/82647748/149488076-01c86010-d24c-4c68-999c-09aba14cbd99.png)
-![image](https://user-images.githubusercontent.com/82647748/149488144-50e1da91-e7b7-4183-b6bd-ff3d15bd0a36.png)
-![image](https://user-images.githubusercontent.com/82647748/149488175-023235d5-ebe3-4398-9bbe-68858275bc7d.png)
+
+![2](https://user-images.githubusercontent.com/82647748/149517986-082a9691-a0c8-4802-bc24-99c5c9d2253d.png)
+![3](https://user-images.githubusercontent.com/82647748/149517994-a009e89c-683c-40d1-a641-46e63a1c9ba9.png)
+![4](https://user-images.githubusercontent.com/82647748/149517999-a99e18c8-b314-4c7b-8ec0-f816f79a0a24.png)
+![5](https://user-images.githubusercontent.com/82647748/149518001-d42bcd2a-6527-4a44-908a-db963acb50ca.png)
+![6](https://user-images.githubusercontent.com/82647748/149518003-1ddc259e-6bdd-4676-a32b-fc6dff4f3d98.png)
+![7](https://user-images.githubusercontent.com/82647748/149518004-dadc6e88-6df8-41e5-b476-f73f83d6f84d.png)
+![8](https://user-images.githubusercontent.com/82647748/149518005-a9968a50-f91c-4058-a0de-c3cae36e8c11.png)
 
 
 # Showcase 

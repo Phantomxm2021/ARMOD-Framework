@@ -16,6 +16,10 @@
 
 
 # What is the ARMOD SDK
+
+AR-MOD means to provide stable, flexible, convenient and fast AR technology empowerment for enterprises or individual developers with existing applications.
+In addition, it is also possible to build a brand new AR application for enterprises or individuals that do not use the application.
+
 In short, [ARMOD's](https://docs.phantomsxr.com/) solution is an AR experience platform solution similar to Snapchat ([Lens Studio](https://lensstudio.snapchat.com/)) and Facebook ([SparkAR](https://sparkar.facebook.com/ar-studio/))! 
 
 AR-MOD is a derivative framework based on Unity ARFoundation. MOD in AR-MOD means Modification in English, meaning: modification and module. This concept is widely used in games, corresponding to modifiable video games. Famous games such as Warcraft, Red Alert, Half-Life, CS, Victory Day and more! 

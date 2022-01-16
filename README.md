@@ -4,7 +4,7 @@
 
 [![Documentation](https://img.shields.io/badge/docs-brightgreen.svg)](https://docs.phantomsxr.com/)
 [![Video Tutorials](https://img.shields.io/badge/video_tutorial-brightgreen.svg)](https://www.youtube.com/channel/UCf98zocVgz1FGF6jgx4N-oA)
-[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/Phantomxm2021/ARMOD-Framework/blob/master/LICENSE)
+![License: Apache](https://img.shields.io/github/license/Phantomxm2021/ARMOD-Framework)
 [![Discord](https://img.shields.io/discord/832555918591000576)](https://discord.gg/eWstRkfp)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Phantomxm2021/ARMOD-Framework)
 

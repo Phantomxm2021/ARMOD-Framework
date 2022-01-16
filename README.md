@@ -18,7 +18,12 @@
 # What is the ARMOD SDK
 
 AR-MOD means to provide stable, flexible, convenient and fast AR technology empowerment for enterprises or individual developers with existing applications.
-In addition, it is also possible to build a brand new AR application for enterprises or individuals that do not use the application.
+In addition, it is also possible to build a brand new AR application for enterprises or individuals that do not use the application. 
+
+AR-MOD provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
+
+![UILayer](https://user-images.githubusercontent.com/82647748/149527960-32a8ea51-1c10-4085-9d75-8a0f2ce254fd.png)
+
 
 <table>
 
@@ -42,13 +47,6 @@ In short, [ARMOD's](https://docs.phantomsxr.com/) solution is an AR experience p
 AR-MOD is a derivative framework based on Unity ARFoundation. MOD in AR-MOD means Modification in English, meaning: modification and module. This concept is widely used in games, corresponding to modifiable video games. Famous games such as Warcraft, Red Alert, Half-Life, CS, Victory Day and more! 
 
 We transplant the MOD concept into AR technology to give users more freedom to create the AR creative interactive experience content they need! In this process, users do not need to worry about AR-SDK algorithm and code implementation, but only need to devote themselves to the production of AR creative interactive experience content. With only a small amount of code, you can use all the capabilities of AR-MOD on the APP to create greater commercial value.
-
-# What is AR-MOD DO
-
-AR-MOD provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
-
-![UILayer](https://user-images.githubusercontent.com/82647748/149527960-32a8ea51-1c10-4085-9d75-8a0f2ce254fd.png)
-
 
 
 # Enhance your world and applications

@@ -1,18 +1,23 @@
 
 <img src="https://user-images.githubusercontent.com/82647748/149487631-6a1fd24c-3efc-46e5-aab6-3999f02fcdcc.png" width="100%">
 
-
+<div align=center>
+ 
 [![Documentation](https://img.shields.io/badge/docs-brightgreen.svg)](https://docs.phantomsxr.com/)
 [![Video Tutorials](https://img.shields.io/badge/video_tutorial-brightgreen.svg)](https://www.youtube.com/channel/UCf98zocVgz1FGF6jgx4N-oA)
 ![License: Apache](https://img.shields.io/github/license/Phantomxm2021/ARMOD-Framework)
 [![Discord](https://img.shields.io/discord/832555918591000576)](https://discord.gg/eWstRkfp)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Phantomxm2021/ARMOD-Framework)
 
+</div>
+
 # Content list
 - [What is the ARMOD SDK?](#what-is-the-armod-sdk)
-- [What is AR-MOD do?](#what-is-ar-mod-do)
 - [Enhance your world and applications](#enhance-your-world-and-applications)
 - [Showcase](#showcase)
+- [AR-MOD Open Source Projects](#ar-mod-open-source-projects)
+- [Main features of ARMOD](#main-features-of-armod)
+
 
 
 # What is the ARMOD SDK

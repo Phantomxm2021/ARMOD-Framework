@@ -8,8 +8,12 @@
 ![License: Apache](https://img.shields.io/github/license/Phantomxm2021/ARMOD-Framework)
 [![Discord](https://img.shields.io/discord/832555918591000576)](https://discord.gg/eWstRkfp)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Phantomxm2021/ARMOD-Framework)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/Phantomxm2021)
 
+[Chinese Version](README.zh-hans.md)
+ 
 </div>
+
 
 # Content list
 - [What is the ARMOD SDK?](#what-is-the-armod-sdk)

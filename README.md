@@ -62,9 +62,9 @@ We transplant the MOD concept into AR technology to give users more freedom to c
 
 ARMOD is a powerful AR solution designed for artists and developers to build augmented reality experiences for hundreds of millions of Unity users. With its suite of Unity-compatible features, including custom shaders and advanced tracking technology, the possibilities are endless.
 
-<details>
+<!-- <details>
 
-<summary> See More About AR-MOD Platform Solustion</summary>
+<summary> See More About AR-MOD Platform Solustion</summary> -->
  
 ![2](https://user-images.githubusercontent.com/82647748/149517986-082a9691-a0c8-4802-bc24-99c5c9d2253d.png)
 ![3](https://user-images.githubusercontent.com/82647748/149517994-a009e89c-683c-40d1-a641-46e63a1c9ba9.png)
@@ -74,7 +74,7 @@ ARMOD is a powerful AR solution designed for artists and developers to build aug
 ![7](https://user-images.githubusercontent.com/82647748/149518004-dadc6e88-6df8-41e5-b476-f73f83d6f84d.png)
 ![8](https://user-images.githubusercontent.com/82647748/149518005-a9968a50-f91c-4058-a0de-c3cae36e8c11.png)
 
-</details>
+<!-- </details> -->
 
 # Showcase 
 <table width="100%">

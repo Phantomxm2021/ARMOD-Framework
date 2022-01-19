@@ -1,6 +1,8 @@
 
 <img src="https://user-images.githubusercontent.com/82647748/149487631-6a1fd24c-3efc-46e5-aab6-3999f02fcdcc.png" width="100%">
 
+https://user-images.githubusercontent.com/82647748/150115955-503785ab-1977-41bc-9da1-9d266e3c8b75.mp4
+
 <div align=center>
  
 [![Documentation](https://img.shields.io/badge/docs-brightgreen.svg)](https://docs.phantomsxr.com/)
@@ -13,6 +15,9 @@
 [Chinese Version](README.zh-hans.md)
  
 </div>
+
+
+
 
 
 # Content list

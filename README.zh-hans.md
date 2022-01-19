@@ -1,6 +1,9 @@
 
 <img src="https://user-images.githubusercontent.com/82647748/149487631-6a1fd24c-3efc-46e5-aab6-3999f02fcdcc.png" width="100%">
 
+https://user-images.githubusercontent.com/82647748/150116299-f24ea326-9fb3-4309-9f57-98d7fc4781d7.mp4
+
+
 <div align=center>
  
 [![Documentation](https://img.shields.io/badge/docs-brightgreen.svg)](https://docs.phantomsxr.com/)
@@ -8,6 +11,9 @@
 ![License: Apache](https://img.shields.io/github/license/Phantomxm2021/ARMOD-Framework)
 [![Discord](https://img.shields.io/discord/832555918591000576)](https://discord.gg/eWstRkfp)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Phantomxm2021/ARMOD-Framework)
+![GitHub Sponsors](https://img.shields.io/github/sponsors/Phantomxm2021)
+
+[English Version](README.md)
 
 </div>
 
@@ -17,6 +23,9 @@
 - [案例集](#案例集)
 - [AR-MOD开源项目](#ar-mod-开源项目)
 - [AR-MOD功能表](#ar-mod-功能表)
+
+
+
 
 
 
@@ -56,9 +65,9 @@ AR-MOD 是基于 Unity ARFoundation 的衍生框架。 AR-MOD中的MOD是英文M
 
 ARMOD 是一个强大的 AR 解决方案，专为艺术家和开发人员设计，为数亿 Unity 用户构建增强现实体验。凭借其与 Unity 兼容的功能套件，包括自定义着色器和高级跟踪技术，可能性无穷无尽。
 
-<details>
+<!-- <details> -->
 
-<summary> 查看更多关于 AR-MOD 平台解决方案的信息</summary>
+<!-- <summary> 查看更多关于 AR-MOD 平台解决方案的信息</summary> -->
  
 ![2](https://user-images.githubusercontent.com/82647748/149517986-082a9691-a0c8-4802-bc24-99c5c9d2253d.png)
 ![3](https://user-images.githubusercontent.com/82647748/149517994-a009e89c-683c-40d1-a641-46e63a1c9ba9.png)
@@ -68,7 +77,7 @@ ARMOD 是一个强大的 AR 解决方案，专为艺术家和开发人员设计�
 ![7](https://user-images.githubusercontent.com/82647748/149518004-dadc6e88-6df8-41e5-b476-f73f83d6f84d.png)
 ![8](https://user-images.githubusercontent.com/82647748/149518005-a9968a50-f91c-4058-a0de-c3cae36e8c11.png)
 
-</details>
+<!-- </details> -->
 
 # 案例集 
 <table width="100%">

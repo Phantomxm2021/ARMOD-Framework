@@ -36,6 +36,8 @@ In addition, it is also possible to build a brand new AR application for enterpr
 
 AR-MOD provides AR integration capabilities for enterprises or individuals. Users do not need to understand ARKit or ARCore or even rendering logic and information, but only need to focus on the realization of AR experience content.
 
+> Real-time: every time you add content, you don't need to wait for review
+
 ![UILayer](https://user-images.githubusercontent.com/82647748/149527960-32a8ea51-1c10-4085-9d75-8a0f2ce254fd.png)
 
 

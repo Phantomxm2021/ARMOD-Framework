@@ -19,7 +19,7 @@ import com.unity3d.player.UnityPlayerActivity;
 public abstract class BaseARMODActivity extends UnityPlayerActivity {
 
     private final String InitSDK = "InitSDK";
-    private final String FetchByUid = "LaunchARQuery";
+    private final String FetchByUid = "LaunchXRQuery";
     private final String LaunchARScanner = "LaunchARScanner";
     private final String Dispose = "Dispose";
     private final String DoQuit = "doQuit";

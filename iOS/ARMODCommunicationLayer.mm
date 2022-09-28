@@ -19,7 +19,7 @@ static UIWindow *originWindow;
 char const *initApp                         = "InitSDK";
 char const *dispose                         = "Dispose";
 char const *cleanCache                      = "CleanCache";
-char const *fetchProject                    = "LaunchARQuery";
+char const *fetchProject                    = "LaunchXRQuery";
 char const *fetchProjectByImage             = "LaunchARScanner";
 char const *setUIInterfaceOrientation       = "SetUIInterfaceOrientation";
 char const *continueToDownloadARExperience  = "ContinueToDownloadAssets";

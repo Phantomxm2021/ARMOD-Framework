@@ -69,6 +69,12 @@
 - (void) fetchProject:(NSString*) projecetUid;
 
 /*!
+ @Discussion Query AR projects by using the unique Id of the project
+ @param projectName Project unique name
+ */
+- (void)fetchProjectByName:(NSString*) projectName;
+
+/*!
  @Discussion Query AR projects through pictures
  */
 - (void) fetchProjectByImage;
@@ -103,4 +109,10 @@
  @Discussion Continue to download the AR experience
  */
 - (void)continueToDownloadARExperience;
+
+/*!
+ @Discussion Send data to XR-Experience
+ @param data Will send data
+ */
+- (void)sendMessageToXRMODEngine:(NSString *)data;
 @end

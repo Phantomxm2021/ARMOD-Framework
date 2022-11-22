@@ -13,6 +13,7 @@ public interface ARMODEventListener {
     void onRecognitionComplete();
     void onTryAcquireInformation(String opTag,AndroidCallback androidCallback);
     void onPackageSizeMoreThanPresetSize(String currentSize,String presetSize);
+    void onMessageReceived(String data)
     void onARMODExit();
     void onARMODLaunch();
 }

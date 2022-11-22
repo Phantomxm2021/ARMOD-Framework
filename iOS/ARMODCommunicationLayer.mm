@@ -132,12 +132,12 @@ UnityFramework* UnityFrameworkLoad()
     if([self armodIsInitialized]){
         [self callSDKMethod:dispose addData:""];
         
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.125 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//            [UnityFrameworkLoad() unloadApplication];
-            [[self ufw] unregisterFrameworkListener:self];
-            [self setUfw:nil];
-            [originWindow makeKeyAndVisible];
-        });
+//        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.125 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+////            [UnityFrameworkLoad() unloadApplication];
+//            [[self ufw] unregisterFrameworkListener:self];
+//            [self setUfw:nil];
+//            [originWindow makeKeyAndVisible];
+//        });
     }
 }
 
@@ -195,6 +195,17 @@ UnityFramework* UnityFrameworkLoad()
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.125 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         const char *converted_projectUid = [projecetUid UTF8String];
         [self callSDKMethod:fetchProject addData:converted_projectUid];
+    });
+}
+
+/*!
+ @Discussion Query the XR Experience from local
+ */
+- (void)fetchProjectByName:(NSString*) projectName{
+    //Since the initialization decision is performed asynchronously, the query item needs to be delayed
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.125 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        const char *converted_projectName = [projectName UTF8String];
+        [self callSDKMethod:"LaunchAROffline" addData:converted_projectName];
     });
 }
 
@@ -261,6 +272,16 @@ UnityFramework* UnityFrameworkLoad()
 - (void)continueToDownloadARExperience{
     if([self armodIsInitialized]){
         [self callSDKMethod:continueToDownloadARExperience addData:""];
+    }
+}
+
+/*!
+ @Discussion Send a message to XRMOD Engine.
+ */
+- (void)sendMessageToXRMODEngine:(NSString *)data{
+    if([self armodIsInitialized]){
+        const char *stringToUnity = [data UTF8String];
+        [self callSDKMethod:onMessageReceived addData:stringToUnity];
     }
 }
 // MARK: - Application Hook

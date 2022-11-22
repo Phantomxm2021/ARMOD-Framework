@@ -24,6 +24,7 @@ public abstract class BaseARMODActivity extends UnityPlayerActivity {
     private final String Dispose = "Dispose";
     private final String DoQuit = "doQuit";
     private final String CleanCache = "CleanCache";
+    private final String SendMessageToXRMODEngine="SendMessageToXRMODEngine";
     private final String SetUIInterfaceOrientation = "SetUIInterfaceOrientation";
     private ARMODCallbackAPI armodCallbackAPI;
 
@@ -114,6 +115,13 @@ public abstract class BaseARMODActivity extends UnityPlayerActivity {
      */
     public void cleanCache(){
         Utils.getInstance().callSDKMethod(CleanCache,"");
+    }
+
+    /**
+     * Clear AR cache
+     */
+    public void sendMessageToXRMODEngine(String data){
+        Utils.getInstance().callSDKMethod(SendMessageToXRMODEngine,data);
     }
 
 

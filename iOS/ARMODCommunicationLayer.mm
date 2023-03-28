@@ -23,7 +23,7 @@ char const *fetchProject                    = "LaunchXRQuery";
 char const *fetchProjectByImage             = "LaunchARScanner";
 char const *setUIInterfaceOrientation       = "SetUIInterfaceOrientation";
 char const *continueToDownloadARExperience  = "ContinueToDownloadAssets";
-
+char const *onMessageReceived               = "onMessageReceived";
 char const *appDelegate                     = "AppDelegate";
 
 // MARK: - Fields Key
